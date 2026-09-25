@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            border: 1px solid #ccc;
+            padding: 15px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Hola Mundo</h2>
+        <p id="texto">Este es un ejemplo simple.</p>
+        <button onclick="cambiarTexto()">Cambiar texto</button>
+    </div>
+
+    <script>
+        function cambiarTexto() {
+            document.getElementById("texto").innerText = "El texto ha sido modificado!";
+        }
+    </script>
+</body>
+</html>
